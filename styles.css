@@ -128,7 +128,7 @@ p.new {
   display: flex;
   flex-direction: column;
   color: #fff;
-  /* text-align: center; */
+  text-align: center;
   margin-top: 2rem;
   gap: 5px;
 }

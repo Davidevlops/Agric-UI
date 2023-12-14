@@ -3,11 +3,10 @@ const linear = document.getElementById("hide")
 const cancelButton = document.getElementById("cancel")
 const blockNav = document.getElementById("block")
 
-console.log("blockNav", blockNav)
 
 hamburgerMenu.addEventListener('click', function () {
     linear.classList = "show"
-    cancelButton.classList = "position-absolute top-0"
+    cancelButton.classList = "text-white position-absolute top-0"
     blockNav.classList = "block"
 
 });
