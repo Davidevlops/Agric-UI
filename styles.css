@@ -76,14 +76,17 @@
 
 .fine-card {
   border-radius: 3px;
-  padding: 0 1rem;
+  padding: 1 2rem;
   width: 100px;
   background-color: #014923;
-  opacity: 0.2;
+  opacity: 0.8;
   z-index: 0;
 }
-
+.text-black {
+  color: #000;
+}
 p.new {
+  text-align: center;
   color: #23b550;
 }
 
@@ -118,8 +121,7 @@ p.new {
   z-index: 100;
   width: 100%;
   height: 100%;
-  background-color: aqua;
-  /* background-color: rgba(0, 0, 0, 0.7); */
+  background-color: rgba(0, 0, 0, 0.7);
   overflow: hidden
 }
 .block {
