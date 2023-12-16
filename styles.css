@@ -77,9 +77,11 @@
   opacity: 0.8;
   z-index: 0;
 }
+
 .text-black {
   color: #000;
 }
+
 p.new {
   text-align: center;
   color: #23b550;
@@ -96,14 +98,17 @@ p.new {
   font-size: 1rem;
 }
 
-.space-x-2 > *{
+.space-x-2>* {
   margin-right: 0.5rem;
 }
 
-.space-y-2 > * {
+.space-y-2>* {
   margin-top: 0.5rem;
 }
 
+.object-cover {
+  object-fit: fill;
+}
 
 .hide {
   display: none;
@@ -119,6 +124,7 @@ p.new {
   background-color: rgba(0, 0, 0, 0.7);
   overflow: hidden
 }
+
 .block {
   display: flex;
   flex-direction: column;
